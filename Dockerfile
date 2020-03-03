@@ -14,4 +14,4 @@ RUN apt-get update && apt-get install -y curl
 
 ADD entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["/docker-entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
