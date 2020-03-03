@@ -1,0 +1,16 @@
+name: 'Typetalk Action'
+description: 'GitHub Action that post a Typetalk message'
+inputs:
+  topic-id:
+    description: 'Topic id to post a message'
+    required: true
+  message:
+    description: "Post message"
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.topic-id }}
+    - ${{ inputs.message }}

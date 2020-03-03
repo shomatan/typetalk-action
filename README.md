@@ -2,13 +2,13 @@
 Post a Typetalk message. 
 
 ## Usage
-     - name: Notify to Typetalk
-       uses: shomatan/typetalk-action@master
-       env:
-         TYPETALK_TOKEN: ${{ secrets.TYPETALK_TOKEN }}
-         TOPIC_ID: 123456
-       with:
-         args: "Build success :smile:"
+    - name: Notify to Typetalk
+      uses: shomatan/typetalk-action@master
+      env:
+        TYPETALK_TOKEN: ${{ secrets.TYPETALK_TOKEN }}
+      with:
+        topic-id: 1234567
+        message: "Build success :smile:"
 
 Appearance on Typetalk :
 

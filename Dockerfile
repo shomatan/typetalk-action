@@ -12,6 +12,6 @@ LABEL maintainer="Shoma Nishitateno <shoma416@gmail.com>"
 
 RUN apt-get update && apt-get install -y curl
 
-ADD docker-entrypoint.sh /docker-entrypoint.sh
+ADD entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
