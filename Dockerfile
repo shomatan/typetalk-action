@@ -1,4 +1,4 @@
-FROM debian:9.5-slim
+FROM debian:10.13-slim
 
 LABEL "com.github.actions.name"="Post Typetalk messages"
 LABEL "com.github.actions.description"="Post Typetalk messages from your own bot"
