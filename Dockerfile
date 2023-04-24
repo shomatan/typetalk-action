@@ -1,11 +1,11 @@
-FROM debian:9.12-slim
+FROM debian:10.13-slim
 
 LABEL "com.github.actions.name"="Post Typetalk messages"
 LABEL "com.github.actions.description"="Post Typetalk messages from your own bot"
 LABEL "com.github.actions.icon"="message-square"
 LABEL "com.github.actions.color"="gray-dark"
 
-LABEL version="0.9.0"
+LABEL version="0.9.1"
 LABEL repository="https://github.com/shomatan/typetalk-action"
 LABEL homepage="https://github.com/shomatan/typetalk-action"
 LABEL maintainer="Shoma Nishitateno <shoma416@gmail.com>"
